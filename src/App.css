@@ -1,0 +1,323 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  height:auto;
+background-color: whitesmoke;
+}
+header{
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px ;
+}
+
+header h2{
+  color: white;
+}
+
+header ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+header ul li button{
+  font-size: large;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.signup{
+  display: block;
+  position: relative;
+  text-align:center;
+  margin-left: auto;
+}
+
+form{
+  margin-top:50px ;
+}
+
+form div {
+  justify-content: center;
+  margin: 10px;
+
+}
+
+form div label{
+text-align: center;
+margin-right: 10px;
+display: block;
+font-size: x-large;
+font-weight: 600;
+}
+
+form div input{
+  margin-top: 5px;
+  border:none;
+  font-size: x-large;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+form p{
+  font-size: large;
+
+}
+
+form p span{
+  font-size: 25px;
+  color: blue;
+  cursor: pointer;
+}
+
+form button{
+  font-size: large;
+  border-radius:10px;
+  border-color: black;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+form button:hover{
+  background-color: darkgreen;
+  color:white
+}
+
+
+#dashboard{
+  background-color:deepskyblue;
+  height: 100vh;
+}
+
+.search{
+  width: 50%;
+  margin:0 auto;
+  margin-top:20vh;
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+      background-color: #ffffffce;
+      padding: 0.5rem 2.5rem 0.5rem;
+      border-radius: 0.5rem;
+}
+
+.content{
+  font-size: x-large;
+
+}
+
+label{
+  font-size: 1.1rem;
+  color: #03045e;
+  margin: 10px;
+}
+
+.search .container{
+   display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 1.5rem;
+}
+
+.search .container input{
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  color: black;
+  padding-left: 3rem;
+          
+}
+
+.check button{
+   padding: 1rem;
+        cursor: pointer;
+        border-radius: 0.3rem;
+        border: none;
+        color: white;
+        background-color: #4361ee;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        transition: 0.3s ease-in-out;
+        display: relative;
+        margin:20px;
+        
+} 
+
+.previous{
+  display: grid;
+  grid: 100px/ auto auto auto;
+  position: relative;
+  grid:100px/ auto auto auto;
+  background-color:aquamarine;
+  background: transparent;
+  margin: 20px;
+  text-align: center;  
+}
+
+ .delete{
+  background-color:red;
+  cursor: pointer;
+  color: white;
+}
+
+
+.delete:hover{
+  background-color: cornflowerblue;
+}
+
+
+.prevcard{
+  margin-top:-20px;
+  border-style: solid;
+  border-width:10px ;
+  border-style: solid;
+  border-color: white;
+  border-radius:5px;
+  margin-left: 10px;
+  margin-right:10px;
+  border: #282c34;
+  background-color: rgb(111, 192, 192);
+  color: black;
+} 
+
+.maindelete{
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.mdelete{
+  font-size: large;
+  width: 200px;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+
+.mdelete:hover{
+  color: black;
+  background-color: white;
+
+}
+
+/* Register */
+.register{
+  height:100vh;
+  display: block;
+  position: relative;
+  text-align:center;
+  margin-left: auto;
+  background-color:whitesmoke;
+  margin-top: -23px;
+}
+
+.register h1{
+  margin-top: 50px;
+  color:wine;
+}
+
+
+.car{
+  display: block;
+  position: relative;
+  text-align: left;
+  border-style: solid;
+  border-width: 3px;
+  margin:0 30% 20% 30%;
+  background-color: rgb(224, 216, 216);
+}
+
+.car label{
+  display: block;
+  font-size: x-large;
+}
+
+.car input{
+  display: block;
+  width: 90%;
+  font-size: x-large;
+  border-style: none;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding:5px;
+  color:black;
+  background-color: white;
+}
+
+.car button{
+  font-size:small;
+  border-radius: 10px;
+  background-color: skyblue;
+}
+
+.car .sub{
+  margin: 5px;
+  text-align: center;
+}
+
+.car p{
+  margin-left:10px ;
+
+}
+
+.car p span{
+  margin-left: 5px;
+}
+
+.car .sub button{
+  font-size: x-large;
+  width: 50%;
+  background-color: tomato;
+}
+
+.res-list
+{
+  display:flex;
+  width: 50vw;
+  margin: 20px auto;
+}
+
+.res-list > div {
+  margin: 20px;
+}
